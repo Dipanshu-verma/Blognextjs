@@ -1,0 +1,60 @@
+.blogItem {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    width: 60%;
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  .blogitemtop{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    
+   
+  }
+
+  .blogItemTitle {
+    font-size: 20px;
+    font-weight: bold;
+   
+  }
+  
+  .blogItemCreatedAt {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .blogItemBody {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .blogItemButtons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .editButton,
+  .deleteButton {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin-right: 10px;
+  }
+  
+  .editButton {
+    color: #000;
+  }
+  
+  .deleteButton {
+    color: #f00;
+  }
+  
+
