@@ -7,7 +7,8 @@ import { useState } from "react";
 const Navbar = () => {
   const [logout, setLogout] = useState(false);
 
-  const token = localStorage.getItem("token");
+  const token = typeof window !== 'undefined' ? localStorage.getItem("token") : null;
+
 
   return (
     <div className={styles.header}>
