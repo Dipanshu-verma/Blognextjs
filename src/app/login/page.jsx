@@ -62,7 +62,7 @@ setLoginData({...loginData,[e.target.name]:e.target.value})
       <h2>Login</h2>
       <form onSubmit={handleSubmit}>
         <div className={styles.formGroup}>
-          <label className='label'>Email:</label>
+          <label className={styles.label}>Email:</label>
           <input
             type="email"
             value={loginData.email}
@@ -73,11 +73,11 @@ setLoginData({...loginData,[e.target.name]:e.target.value})
           />
         </div>
         <div className={styles.formGroup}>
-          <label className='label'>Password:</label>
+          <label className={styles.label}>Password:</label>
           <input
             type="password"
             value={loginData.password}
-            name='password'
+            name="password"
             onChange={handlelogin}
             className={styles.input}
             required
@@ -92,7 +92,7 @@ setLoginData({...loginData,[e.target.name]:e.target.value})
         </button>
       </form>
 
-      <p className={styles.createacount}>don't have an account <Link href="/signup" className={styles.Link} ><span style={{color:'#007bff'}}>create account</span></Link>  </p>
+      <p className={styles.createacount}>do not have an account <Link href="/signup" className={styles.Link} ><span style={{color:"#007bff"}}>create account</span></Link>  </p>
     </div>
     </>
   );
