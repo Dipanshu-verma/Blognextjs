@@ -7,7 +7,7 @@ import axios from 'axios';
 import Navbar from '@/app/Navbar/Navbar';
  
 
-const page = () => {
+const Page = () => {
     const [redirectPath, setRedirectPath] = useState(null);
 
 const router = useRouter();
@@ -113,4 +113,4 @@ alert("somthing went wrong please try again")
   );
 };
 
-export default page;
+export default Page;

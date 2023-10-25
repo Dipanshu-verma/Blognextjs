@@ -7,7 +7,7 @@ import { useRouter } from 'next/navigation';
 import Navbar from '@/app/Navbar/Navbar';
  
 
-const signup = () => {
+const Signup = () => {
     const [loginData, setLoginData] = useState({
         email:"",
         password:"",
@@ -90,4 +90,4 @@ useEffect(() => {
   );
 };
 
-export default signup;
+export default Signup;

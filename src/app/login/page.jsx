@@ -9,7 +9,7 @@ import Navbar from '@/app/Navbar/Navbar';
 
  
 
-const login = () => {
+const Login = () => {
   const [loginData, setLoginData] = useState({
     email:"",
     password:"",
@@ -98,4 +98,4 @@ setLoginData({...loginData,[e.target.name]:e.target.value})
   );
 };
 
-export default login;
+export default Login;
